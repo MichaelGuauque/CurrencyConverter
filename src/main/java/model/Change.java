@@ -45,8 +45,8 @@ public class Change {
         return conversion;
     }
 
-    public void setConversion(double conversion) {
-        this.conversion = conversion;
+    public void setConversion(ChangeDTO changeDTO) {
+        this.conversion = changeDTO.conversion_result();
     }
 
     @Override
